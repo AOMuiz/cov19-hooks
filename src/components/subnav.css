@@ -1,0 +1,28 @@
+.subnav-list {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 0;
+}
+.subnav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    95.43deg,
+    #0098ee 0.02%,
+    #00eeb5 196.57%,
+    #00eeb5 196.57%
+  );
+  border-radius: 4px 4px 0px 0px;
+  padding: 7px;
+}
+
+.subnav-list__item {
+  margin: 10px;
+  color: white;
+}
+.subnav-list__item a {
+  color: white;
+  text-decoration: none;
+}

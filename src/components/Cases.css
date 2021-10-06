@@ -1,0 +1,75 @@
+.cases {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  padding: 8px 15px;
+  color: white;
+  background: linear-gradient(
+    95.43deg,
+    #0098ee 0.02%,
+    #00eeb5 196.57%,
+    #00eeb5 196.57%
+  );
+  border-radius: 4px;
+}
+
+.gradient-style-2 {
+  background: linear-gradient(
+    95.37deg,
+    #0098ee -95.82%,
+    #00eeb5 98.99%,
+    #00eeb5 98.99%
+  );
+}
+
+.gradient-style > * {
+  background: -webkit-linear-gradient(114.93deg, #0199ee 0%, #01e5bb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-style {
+  color: #0098ee;
+}
+
+.title__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+.seprate {
+  background: #ffffff;
+  color: linear-gradient(114.93deg, #0199ee 0%, #01e5bb 100%);
+  box-shadow: 1px 1px 5px 2px rgba(0, 224, 238, 0.08);
+  border-radius: 4px;
+}
+
+.cases__title {
+  font-weight: 700;
+  font-size: medium;
+}
+
+.cases__updated {
+  font-size: small;
+  font-weight: 300;
+}
+.cases__count {
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin: 5px;
+}
